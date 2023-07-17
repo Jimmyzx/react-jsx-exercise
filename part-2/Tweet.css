@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(143, 179, 244);
+}
+
+.tweet {
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 20%;
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  
+  .tweet-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .username {
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .name {
+    color: #888;
+    display: inline-block;
+    margin: 0 10px;
+    margin-left: 5px;
+  }
+  
+  .date {
+    color: #888;
+  }
+  
+  .message {
+    font-size: 16px;
+  }
+  
